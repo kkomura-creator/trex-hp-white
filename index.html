@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>株式会社Trex — AIの力で、自分らしく。</title>
+<meta name="description" content="AIが時間を生み、人は想いを込める仕事へ。その両立をデザインする、株式会社Trex。">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ===== Intro loader ===== -->
+<div class="intro" id="intro">
+  <img src="assets/logo.png" alt="Trex">
+  <div class="intro-line"><span></span></div>
+</div>
+
+<!-- ===== NAV ===== -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="logo"><img src="assets/logo.png" alt="Trex"></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#coexist">AI × Human</a></li>
+      <li><a href="#values">Values</a></li>
+      <li><a href="#flow">Flow</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="ham" id="ham" aria-label="menu"><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <canvas class="net" data-net="hero"></canvas>
+  <div class="hero-center">
+    <p class="hero-eyebrow" data-load="0">OUR MISSION</p>
+    <h1 class="hero-headline">
+      <span class="hl-line" data-chars data-grad='["#D07820","#F09030","#E8B430"]' data-grad2='["#D07820","#F09030","#E8B430","#4AA4DC"]' data-load="1">人が想いを込め、</span>
+      <span class="hl-line" data-chars data-grad='["#1F6E9E","#2F87BD","#4AA4DC","#6FBCE8"]' data-grad2='["#D07820","#E8B430","#4AA4DC","#2F87BD"]' data-load="2">AIが時間を生む。</span>
+    </h1>
+    <p class="hero-sub" data-load="3">AIが時間を生み、人は、想いを込める仕事へ。<br>その両立をデザインする、株式会社Trex。</p>
+    <div class="hero-badges" data-load="4">
+      <span>AI業務効率化</span><span>システム開発</span><span>SNS自動運用</span><span>ブランディング動画</span><span>WEB広告</span><span>HP・WEBサイト制作</span>
+    </div>
+  </div>
+  <div class="scroll-cue" data-load="5"><span>SCROLL</span><i></i></div>
+</section>
+
+<!-- ===== MISSION (scroll-scrub text) ===== -->
+<section class="scrub-sec" id="mission">
+  <div class="scrub-sticky">
+    <div class="scrub-inner">
+      <p class="scrub-label">STORY</p>
+      <p class="scrub-text" id="scrubText">SNSの更新、|資料づくり、|定型業務。|「作業」に追われて、|想いを届ける時間がない。|そんな経営者を、|現場でたくさん見てきました。|だから、決めました。|時間はAIが生む。|想いは人が込める。|ブランドを伝える動画も、|心を動かすデザインも、|人の手で|細部まで磨き上げる。|AIと人のかけあわせで、|「自分らしさ」を、|もっと遠くへ。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHOWREEL (video-like panel) ===== -->
+<section class="reel-sec" id="reel">
+  <div class="reel-sticky">
+    <div class="reel-frame" id="reelFrame">
+      <canvas class="net" data-net="dark"></canvas>
+      <div class="reel-overlay">
+        <p class="reel-en">AI × HUMAN</p>
+        <p class="reel-ja">共存が、いちばん美しい。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICE (stacking cards) ===== -->
+<section class="service-sec" id="service">
+  <div class="sec-head">
+    <p class="sec-label">SERVICE</p>
+    <h2 class="sec-title">幅は広く、軸はひとつ。<br>3つの領域。</h2>
+  </div>
+
+  <div class="stack">
+    <div class="stack-item">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-num">01</p>
+          <p class="card-role ai">AIがとくいなことは、AIに</p>
+          <h3>AIが、時間を生む。</h3>
+          <p class="card-sub">AI業務効率化 ／ システム開発 ／ SNS自動運用</p>
+          <p class="card-txt">ChatGPT・Claude等のAI導入支援、業務に合わせたシステム開発、そしてあなたのクローンのように発信し続けるSNS自動運用。「作業」を仕組みに任せ、経営者とチームの時間を生み出します。</p>
+          <div class="card-tags"><span>AI業務効率化コンサル</span><span>システム開発</span><span>SNS自動運用</span><span>活用研修</span></div>
+        </div>
+        <div class="card-vis"><canvas class="net" data-net="mid"></canvas><p>AI × SYSTEM</p></div>
+      </div>
+    </div>
+    <div class="stack-item">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-num">02</p>
+          <p class="card-role hu">人にしかできないことは、人に</p>
+          <h3>人が、想いを込める。</h3>
+          <p class="card-sub">ブランディング動画制作</p>
+          <p class="card-txt">会社の想いや世界観を伝える動画は、構成・映像・言葉のニュアンスまで、人間のクリエイターが細部を検討し尽くして磨き上げます。AIには置き換えられない、Trexの必須領域です。</p>
+          <div class="card-tags"><span>企画・構成</span><span>撮影・編集</span><span>ブランドムービー</span><span>細部までの演出設計</span></div>
+        </div>
+        <div class="card-vis"><canvas class="net" data-net="mid"></canvas><p>BRANDING FILM</p></div>
+      </div>
+    </div>
+    <div class="stack-item">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-num">03</p>
+          <p class="card-role mix">そのかけあわせが、いちばんいい</p>
+          <h3>かけあわせて、届ける。</h3>
+          <p class="card-sub">WEB広告 ／ HP・WEBサイト制作</p>
+          <p class="card-txt">データ分析と高速な検証はAIで、心を動かすクリエイティブは人で。美容業界に強いWEB広告運用から、デザインにこだわったHP・WEBサイト制作まで。このサイトも、Trexの制作です。</p>
+          <div class="card-tags"><span>WEB広告運用</span><span>美容業界に強み</span><span>HP・WEBサイト制作</span><span>LP制作</span></div>
+        </div>
+        <div class="card-vis"><canvas class="net" data-net="mid"></canvas><p>AD × WEB DESIGN</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AI × HUMAN ===== -->
+<section class="co-sec" id="coexist">
+  <div class="co-inner">
+    <p class="sec-label">PHILOSOPHY</p>
+    <h2 class="co-title reveal">
+      <em class="ai">AIがとくいなこと</em>はAIに。<br>
+      <em class="hu">人にしかできないこと</em>は人に。<br>
+      <span class="mix">そのかけあわせが、いちばんいい。</span>
+    </h2>
+    <div class="co-grid">
+      <div class="co-card reveal">
+        <h3><i class="dot b"></i>AIが担うこと — 時間を生む</h3>
+        <ul>
+          <li>SNS投稿の自動生成・配信</li>
+          <li>定型業務の自動化・システム化</li>
+          <li>データ分析・レポートの下書き生成</li>
+          <li>マーケティングの高速な検証</li>
+          <li>24時間365日、分身として働く</li>
+        </ul>
+      </div>
+      <div class="co-x reveal">×</div>
+      <div class="co-card reveal">
+        <h3><i class="dot o"></i>人が担うこと — 想いを込める</h3>
+        <ul>
+          <li>ブランディング動画の企画・細部の演出</li>
+          <li>感情を動かすコピーの最終監修</li>
+          <li>WEBデザイン・世界観の設計</li>
+          <li>ブランドづくり・戦略の意思決定</li>
+          <li>大切な場面での、人間の判断</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VALUES ===== -->
+<section class="values-sec" id="values">
+  <div class="sec-head">
+    <p class="sec-label">VALUES</p>
+    <h2 class="sec-title">大切にしていること。</h2>
+  </div>
+  <div class="val-grid">
+    <div class="val reveal"><p class="val-n">01</p><h4>人ファースト</h4><p>テクノロジーは手段。目的は常に「人」。AIが働くからこそ、人は創造に集中できる。</p></div>
+    <div class="val reveal"><p class="val-n">02</p><h4>現場から変える</h4><p>中小企業の現場を知るからこそ、机上の空論ではなく成果が出るAI活用を提案する。</p></div>
+    <div class="val reveal"><p class="val-n">03</p><h4>共に成長する</h4><p>一方的な提供ではなく、顧客と一緒にAI活用を学び伴走するパートナーシップ。</p></div>
+    <div class="val reveal"><p class="val-n">04</p><h4>自分らしさを尊重</h4><p>AIが発信を代行し、クリエイターが繊細な表現を担う。共存で自分らしさを最大限に。</p></div>
+    <div class="val reveal"><p class="val-n">05</p><h4>スピードと誠実さ</h4><p>AI時代の速度で動きつつ、信頼関係を最も大切に。「紹介される仕事」を積み重ねる。</p></div>
+    <div class="val reveal"><p class="val-n">06</p><h4>AI × 人間の共存</h4><p>AIだけでも、人間だけでもない。両方の力の掛け合わせで最高の結果を生む。</p></div>
+  </div>
+</section>
+
+<!-- ===== FLOW ===== -->
+<section class="flow-sec" id="flow">
+  <div class="sec-head">
+    <p class="sec-label">FLOW</p>
+    <h2 class="sec-title">ご利用の流れ。</h2>
+  </div>
+  <div class="fl-list">
+    <div class="fl reveal"><p class="fl-n">01</p><div><h4>無料相談（約30分）</h4><p>お悩み・ご要望をヒアリング。現状の業務フロー・SNS運用状況を確認します。</p></div></div>
+    <div class="fl reveal"><p class="fl-n">02</p><div><h4>診断 & ご提案</h4><p>AIで効率化できる業務と、人が担うべき業務を整理し、最適なプランをご提案。</p></div></div>
+    <div class="fl reveal"><p class="fl-n">03</p><div><h4>AI学習 & セットアップ</h4><p>あなたの人となり・言葉遣い・価値観をAIに学習させ「自分のクローン」を構築。</p></div></div>
+    <div class="fl reveal"><p class="fl-n">04</p><div><h4>運用開始 & 継続改善</h4><p>月次レポートと定期レビューで継続的に改善し、成果を最大化します。</p></div></div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-sec" id="contact">
+  <canvas class="net" data-net="dark"></canvas>
+  <div class="cta-inner reveal">
+    <p class="cta-label">CONTACT</p>
+    <h2>このサイトも、<br class="sp-only">Trexがつくりました。</h2>
+    <p class="cta-lead">デザインも、仕組みも、動画も、広告も。<br>AIと人のかけあわせで、あなたの会社の「らしさ」をかたちにします。<br>HP・WEBサイト制作のご相談も、お気軽にどうぞ。</p>
+    <a class="cta-btn" href="https://www.tr-ex.co.jp/" target="_blank" rel="noopener">Trexに相談してみる<i>→</i></a>
+    <p class="cta-sm">対応時間：平日 10:00〜18:00</p>
+  </div>
+</section>
+
+<footer>
+  <img src="assets/logo.png" alt="Trex">
+  <p class="ft-tag">AI × HUMAN — COEXIST.</p>
+  <p class="ft-cp">© 2026 株式会社Trex All rights reserved.</p>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
